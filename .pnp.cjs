@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@magyar-bankholding-zrt/fnd-configs", "npm:2.4.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40magyar-bankholding-zrt%2Ffnd-configs%2F2.4.1%2F3259997b4f5e33722c2387c1e025c11e822174ebcbada16cac1089455e09d577"],\
             ["@nestjs/cli", "npm:8.2.6"],\
             ["@nestjs/common", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:8.4.7"],\
+            ["@nestjs/config", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:2.1.0"],\
             ["@nestjs/core", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:8.4.7"],\
             ["@nestjs/platform-express", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:8.4.7"],\
             ["@nestjs/schematics", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:8.0.11"],\
@@ -1437,6 +1438,40 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "cache-manager",\
             "class-transformer",\
             "class-validator",\
+            "reflect-metadata",\
+            "rxjs"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@nestjs/config", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/@nestjs-config-npm-2.1.0-58184a8412-6e7af8a981.zip/node_modules/@nestjs/config/",\
+          "packageDependencies": [\
+            ["@nestjs/config", "npm:2.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:2.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/@nestjs-config-virtual-258f84d1e2/0/cache/@nestjs-config-npm-2.1.0-58184a8412-6e7af8a981.zip/node_modules/@nestjs/config/",\
+          "packageDependencies": [\
+            ["@nestjs/config", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:2.1.0"],\
+            ["@nestjs/common", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:8.4.7"],\
+            ["@types/nestjs__common", null],\
+            ["@types/reflect-metadata", null],\
+            ["@types/rxjs", null],\
+            ["dotenv", "npm:16.0.1"],\
+            ["dotenv-expand", "npm:8.0.3"],\
+            ["lodash", "npm:4.17.21"],\
+            ["reflect-metadata", "npm:0.1.13"],\
+            ["rxjs", "npm:7.5.5"],\
+            ["uuid", "npm:8.3.2"]\
+          ],\
+          "packagePeers": [\
+            "@nestjs/common",\
+            "@types/nestjs__common",\
+            "@types/reflect-metadata",\
+            "@types/rxjs",\
             "reflect-metadata",\
             "rxjs"\
           ],\
@@ -3859,6 +3894,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["doctrine", "npm:3.0.0"],\
             ["esutils", "npm:2.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv", [\
+        ["npm:16.0.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.1-d99e72bb95-f459ffce07.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv-expand", [\
+        ["npm:8.0.3", {\
+          "packageLocation": "./.yarn/cache/dotenv-expand-npm-8.0.3-3f30d1947a-128ce90ac8.zip/node_modules/dotenv-expand/",\
+          "packageDependencies": [\
+            ["dotenv-expand", "npm:8.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7068,6 +7121,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@magyar-bankholding-zrt/fnd-configs", "npm:2.4.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40magyar-bankholding-zrt%2Ffnd-configs%2F2.4.1%2F3259997b4f5e33722c2387c1e025c11e822174ebcbada16cac1089455e09d577"],\
             ["@nestjs/cli", "npm:8.2.6"],\
             ["@nestjs/common", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:8.4.7"],\
+            ["@nestjs/config", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:2.1.0"],\
             ["@nestjs/core", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:8.4.7"],\
             ["@nestjs/platform-express", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:8.4.7"],\
             ["@nestjs/schematics", "virtual:e281f12f9833fe92400ac87554334f5ae592d3a877285fa0a16edbf0a199e3dae572a048139492698f707d5e2bedf95adafe9820aa06d2567a72bf5a04efc11e#npm:8.0.11"],\
